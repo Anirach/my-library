@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				leather: {
+					DEFAULT: 'hsl(var(--leather))',
+					foreground: 'hsl(var(--leather-foreground))'
+				},
+				gold: {
+					DEFAULT: 'hsl(var(--gold))',
+					foreground: 'hsl(var(--gold-foreground))'
+				},
+				paper: 'hsl(var(--paper))',
+				ink: 'hsl(var(--ink))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +72,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			boxShadow: {
+				'book': 'var(--shadow-book)',
+				'subtle': 'var(--shadow-subtle)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
