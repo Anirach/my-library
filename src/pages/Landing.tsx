@@ -1,17 +1,15 @@
 import { BookOpen, Library, Heart, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-
 const Landing = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-paper to-accent/30">
+  return <div className="min-h-screen bg-gradient-to-br from-background via-paper to-accent/30">
       {/* Header */}
       <header className="container mx-auto px-6 py-8">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-gradient-leather rounded-xl flex items-center justify-center shadow-elegant">
             <BookOpen className="w-6 h-6 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground">Story Shelves</h1>
+          
         </div>
       </header>
 
@@ -22,9 +20,9 @@ const Landing = () => {
             <Library className="w-12 h-12 text-white" />
           </div>
           
-          <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight text-center">
+          <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight px-0 text-center">
             Your Personal Library,
-            <span className="text-gradient bg-gradient-leather bg-clip-text text-transparent"> Organized</span>
+            <span className="text-gradient bg-gradient-leather bg-clip-text text-transparent"></span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -87,8 +85,6 @@ const Landing = () => {
           <p>Your personal library companion</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Landing;
