@@ -22,7 +22,7 @@ const Landing = () => {
             <Library className="w-12 h-12 text-white" />
           </div>
           
-          <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight text-center">
             Your Personal Library,
             <span className="text-gradient bg-gradient-leather bg-clip-text text-transparent"> Organized</span>
           </h1>
